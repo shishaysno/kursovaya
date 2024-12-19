@@ -1,0 +1,853 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "real_name": "Абрамов А.А",
+            "username": "admin",
+            "password": "admin",
+            "role": "Администратор",
+            "group_name": null,
+            "specialty": null,
+            "course": null,
+            "subjects": null,
+            "birthday": "12.12.2002",
+            "email": "shishaysno@gmail.com",
+            "avatar": "avatar3.png"
+        },
+        {
+            "id": 3,
+            "real_name": "Пилина Т.К",
+            "username": "pilpil",
+            "password": "pilpil",
+            "role": "Преподаватель",
+            "group_name": null,
+            "specialty": null,
+            "course": null,
+            "subjects": [
+                "Численные методы"
+            ],
+            "birthday": "111",
+            "email": "111",
+            "avatar": "avatar6.png"
+        },
+        {
+            "id": 4,
+            "real_name": "Маршинина Алиса Сергеевна",
+            "username": "yulianalover",
+            "password": "12345",
+            "role": "Студент",
+            "group_name": "302ИС-22",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "subjects": null
+        },
+        {
+            "id": 5,
+            "real_name": "Назарова Д.Д",
+            "username": "nazarova",
+            "password": "nazarova",
+            "role": "Студент",
+            "group_name": "312ИС-22",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "subjects": null
+        },
+        {
+            "id": 5,
+            "real_name": "Чугунова А. Б",
+            "username": "shishaysno",
+            "password": "sasha123",
+            "role": "Студент",
+            "group_name": "312ИС-22",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "subjects": null
+        },
+        {
+            "id": 6,
+            "real_name": "Чугунова А. Б.",
+            "username": "shishaysno",
+            "password": "sasha135",
+            "role": "Студент",
+            "group_name": "312ИС-22",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "subjects": null
+        },
+        {
+            "id": 7,
+            "real_name": "33",
+            "username": "fdsedfgew",
+            "password": "dwefsd",
+            "role": "Преподаватель",
+            "group_name": null,
+            "specialty": null,
+            "course": null,
+            "subjects": [
+                "Разработка программных модулей",
+                "Технология разработки и защиты баз данных",
+                "Численные методы"
+            ]
+        }
+    ],
+    "subjects": [
+        {
+            "id": 1,
+            "name": "Поддержка и тестирование программных модулей",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "К515"
+        },
+        {
+            "id": 2,
+            "name": "Разработка программных модулей",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "К65"
+        },
+        {
+            "id": 3,
+            "name": "Внедрение и поддержка компьютерных систем",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "К505"
+        },
+        {
+            "id": 4,
+            "name": "Технология разработки и защиты баз данных",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "К615"
+        },
+        {
+            "id": 5,
+            "name": "Физическая культура",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "Спортзал"
+        },
+        {
+            "id": 6,
+            "name": "Численные методы",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "К56"
+        },
+        {
+            "id": 7,
+            "name": "Экологические основы природопользования",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "616"
+        },
+        {
+            "id": 8,
+            "name": "Иностранный язык в профессиональной деятельности",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "406"
+        },
+        {
+            "id": 9,
+            "name": "Основы алгоритмизации и программирования",
+            "specialty": "Информационные системы и программирование",
+            "course": 3,
+            "classroom": "К53"
+        }
+    ],
+    "schedule": [
+        {
+            "day_of_week": "Понедельник",
+            "time": "08:20-09:40",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "Спортзал"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "09:50-11:10",
+            "subject_id": 1,
+            "subject_name": "Поддержка и тестирование программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К515"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "11:20-12:40",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "08:20-09:40",
+            "subject_id": 8,
+            "subject_name": "Иностранный язык в профессиональной деятельности",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "09:50-11:10",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "08:20-09:40",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "09:50-11:10",
+            "subject_id": 2,
+            "subject_name": "Разработка программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "08:20-09:40",
+            "subject_id": 8,
+            "subject_name": "Иностранный язык в профессиональной деятельности",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "09:50-11:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "08:20-09:40",
+            "subject_id": 7,
+            "subject_name": "Экологические основы природопользования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "616"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "09:50-11:10",
+            "subject_id": 7,
+            "subject_name": "Экологические основы природопользования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "616"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "08:20-09:40",
+            "subject_id": 1,
+            "subject_name": "Поддержка и тестирование программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К515"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "09:50-11:10",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "302ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Четная",
+            "classroom": "К56"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "11:20-12:40",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "302ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Четная",
+            "classroom": "К56"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "12:50-14:10",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "Спортзал"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "14:40-16:00",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "12:50-14:10",
+            "subject_id": 1,
+            "subject_name": "Поддержка и тестирование программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К515"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "14:40-16:00",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "16:10-17:30",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "Спортзал"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "11:20-12:40",
+            "subject_id": 1,
+            "subject_name": "Поддержка и тестирование программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К515"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "12:50-14:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "14:40-16:00",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "302ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Нечетная",
+            "classroom": "К56"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "11:20-12:40",
+            "subject_id": 3,
+            "subject_name": "Внедрение и поддержка компьютерных систем",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К505"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "12:50-14:10",
+            "subject_id": 2,
+            "subject_name": "Разработка программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "14:40-16:00",
+            "subject_id": 2,
+            "subject_name": "Разработка программных модулей",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "11:20-12:40",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "302ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Нечетная",
+            "classroom": "К56"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "12:50-14:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "11:20-12:40",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "Спортзал"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "12:50-14:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "16:10-17:30",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "17:40-19:00",
+            "subject_id": 3,
+            "subject_name": "Внедрение и поддержка компьютерных систем",
+            "group_name": "302ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К505"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "08:20-09:40",
+            "subject_id": 7,
+            "subject_name": "Экологические основы природопользования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "616"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "09:50-11:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "11:20-12:40",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "08:20-09:40",
+            "subject_id": 2,
+            "subject_name": "Разработка программных модулей",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "09:50-11:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "11:20-12:40",
+            "subject_id": 2,
+            "subject_name": "Разработка программных модулей",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "08:20-09:40",
+            "subject_id": 3,
+            "subject_name": "Внедрение и поддержка компьютерных систем",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К505"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "09:50-11:10",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "08:20-09:40",
+            "subject_id": 1,
+            "subject_name": "Поддержка и тестирование программных модулей",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К515"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "09:50-11:10",
+            "subject_id": 8,
+            "subject_name": "Иностранный язык в профессиональной деятельности",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "08:20-09:40",
+            "subject_id": 1,
+            "subject_name": "Поддержка и тестирование программных модулей",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К515"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "09:50-11:10",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "312ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Четная",
+            "classroom": "К56"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "08:20-09:40",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "09:50-11:10",
+            "subject_id": 8,
+            "subject_name": "Иностранный язык в профессиональной деятельности",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "11:20-12:40",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "312ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Четная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "12:50-14:10",
+            "subject_id": 8,
+            "subject_name": "Иностранный язык в профессиональной деятельности",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Четная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "12:50-14:10",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "14:40-16:00",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "Спортзал"
+        },
+        {
+            "day_of_week": "Понедельник",
+            "time": "16:10-17:30",
+            "subject_id": 6,
+            "subject_name": "Численные методы",
+            "group_name": "312ИС-22",
+            "teacher_id": 3,
+            "teacher_name": "Пилина Т.К",
+            "week_type": "Нечетная",
+            "classroom": "К56"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "12:50-14:10",
+            "subject_id": 2,
+            "subject_name": "Разработка программных модулей",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К65"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "14:40-16:00",
+            "subject_id": 4,
+            "subject_name": "Технология разработки и защиты баз данных",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К615"
+        },
+        {
+            "day_of_week": "Вторник",
+            "time": "16:10-17:30",
+            "subject_id": 7,
+            "subject_name": "Экологические основы природопользования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "616"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "11:20-12:40",
+            "subject_id": 8,
+            "subject_name": "Иностранный язык в профессиональной деятельности",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "12:50-14:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Среда",
+            "time": "14:40-16:00",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "11:20-12:40",
+            "subject_id": 3,
+            "subject_name": "Внедрение и поддержка компьютерных систем",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К505"
+        },
+        {
+            "day_of_week": "Четверг",
+            "time": "12:50-14:10",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К505"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "11:20-12:40",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "К53"
+        },
+        {
+            "day_of_week": "Пятница",
+            "time": "12:50-14:10",
+            "subject_id": 7,
+            "subject_name": "Экологические основы природопользования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "616"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "14:40-16:00",
+            "subject_id": 9,
+            "subject_name": "Основы алгоритмизации и программирования",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "406"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "16:10-17:30",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "Спортзал"
+        },
+        {
+            "day_of_week": "Суббота",
+            "time": "17:40-19:00",
+            "subject_id": 5,
+            "subject_name": "Физическая культура",
+            "group_name": "312ИС-22",
+            "teacher_id": null,
+            "teacher_name": "Вакансия",
+            "week_type": "Нечетная",
+            "classroom": "Спортзал"
+        }
+    ]
+}
